@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modifieprofilActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+
+    >
+
+
+    <EditText
+        android:id="@+id/acien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="Ancien"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/nouveau"
+       android:hint="Nouveau mot de passe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/conf_nouveau"
+        android:hint="confirme Nouveau mot de passe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/modifier"
+       android:hint="Modifier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <Button
+        android:id="@+id/submit"
+        android:hint="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </ProgressBar>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ajouterTravailActivity"
+    android:orientation="vertical">
+
+        >
+        <EditText
+            android:id="@+id/editTexDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:layout_margin="20dp"
+            android:hint="description"
+            android:inputType="textMultiLine"
+
+            />
+
+        <EditText
+            android:id="@+id/edittextprom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:layout_margin="20dp"
+            android:hint="promotion"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/edittextcat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:layout_margin="20dp"
+            android:hint="category"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editTEXtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+
+            android:layout_margin="20dp"
+            android:hint="date travail"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/editTestajouPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Ajouter Photo"
+            android:layout_margin="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/editnomphot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Photo:"
+
+            android:layout_margin="20dp"
+            />
+
+        <Button
+            android:id="@+id/editTexajouTrav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Ajouter/Modifier"
+            />
+    <ProgressBar
+        android:layout_margin="20dp"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+
+
+
